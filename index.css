@@ -84,23 +84,13 @@ body {
     margin: 0;
     justify-content: center;
     align-items: center;
-    /* background-color: hsl(47, 88%, 63%); */
+    background-color: hsl(47, 88%, 63%);
     /* height: 100vh; */
     font-family: 'Figtree', sans-serif;
     font-size: smaller;
+    margin-inline: 30px;
 }
 
-.new-img {
-  border: 2px solid;
-  height: 500px;
-  padding: 10px;
-  width:  300px;
-}
-
-.my-img {
-  width: 100%;
-  height: 14.5rem;
-}
 
 main {
     border:1px solid hsl(0, 0%, 7%);
@@ -109,14 +99,16 @@ main {
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
     border-radius: 30px;
+    width: 20rem;
     height: 29rem;
     padding: 19px;
 }
 
 .main-img {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   border-radius: 10px;
-  height: 14.5rem;
+  width: 100%;
+  /* height: 14.5rem; */
 }
 
 button {
